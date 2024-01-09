@@ -3,11 +3,15 @@
 .item {
   position: relative;
   float: left;
-  border: thin solid blue;
+  border-right: solid black;
+  height: 45px;
+  width: 100px;
 }
 
 #menu {
-  border: thin solid black;
+  border: solid red;
+  height: 50px;
+  font-size: 30px;
 }
 
 /* CLEARFIX */
@@ -17,13 +21,102 @@
   clear: both;
 }
 
-.subitem { border: thin solid red; }
+.subitem { 
+  border: thin solid red;
+  background-color: white;
+}
 
-.submenu { display: none;}
+.submenu { 
+  display: none;
+  font-size: 25px;
+}
 
 .item:hover > .submenu {
   position: absolute;
   display: block;
   width: auto;
 
+}
+
+.margen {
+  margin: 20px;
+}
+
+.foto {
+  height: 925px;
+}
+
+.fotoo {
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 20px;
+  height: 750px;
+  border: solid red;
+}
+
+.info1 {
+  height: 300px;
+  width: 400px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 50px;
+}
+
+.info2 {
+  height: 300px;
+  width: 400px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 50px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.letra {
+  text-align: center;
+  margin: 20px;
+}
+
+.info3 {
+  margin-left: 500px;
+  margin-top: -700px;
+  height: 300px;
+  width: 400px;
+  border: solid black;
+}
+
+.info4 {
+  margin-left: 500px;
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+  border: solid black;
+}
+
+.info5 {
+  margin-left: 950px;
+  margin-top: -650px;
+  height: 300px;
+  width: 400px;
+  border: solid black;
+}
+
+.info6 {
+  margin-left: 950px;
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+  border: solid black;
+}
+
+.info7 {
+  margin-left: 1400px;
+  margin-top: -650px;
+  height: 650px;
+  width: 400px;
+  border: solid black;
 }
